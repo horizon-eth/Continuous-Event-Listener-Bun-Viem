@@ -63,7 +63,7 @@ EVENT_NAME="Transfer"  # or other supported events
 Start the event listener:
 
 ```bash
-bun run index.ts
+bun start
 ```
 
 ### Supported Event Types
