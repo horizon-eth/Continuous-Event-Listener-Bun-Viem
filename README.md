@@ -1,4 +1,4 @@
-# Continuous Event Listening
+# Continuous Event Listener Bun.sh Viem.sh
 
 A TypeScript project for real-time event listening using viem.sh and Bun runtime. This project provides high-performance event listening capabilities for ERC20 tokens and Uniswap V2/V3 pools.
 
