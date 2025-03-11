@@ -1,5 +1,5 @@
 {
-  "name": "continuous-event-listening-bun-viem",
+  "name": "continuous-event-listener-bun-viem",
   "author": "horizon-eth",
   "module": "index.ts",
   "type": "module",
