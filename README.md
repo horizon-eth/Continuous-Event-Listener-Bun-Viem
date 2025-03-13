@@ -17,7 +17,6 @@ A TypeScript project for real-time event listening using viem.sh and Bun runtime
 
 -   [Bun](https://bun.sh) v1.1.30 or higher
 -   An Ethereum WebSocket provider URL
--   Node.js 16.x or higher (for development tools)
 
 ## Tech Stack
 
@@ -33,8 +32,8 @@ A TypeScript project for real-time event listening using viem.sh and Bun runtime
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/horizon-eth/continuous-event-listening.git
-cd continuous-event-listening
+git clone https://github.com/horizon-eth/continuous-event-listener-bun-viem.git
+cd continuous-event-listener-bun-viem
 ```
 
 2. Install dependencies:
@@ -134,10 +133,12 @@ For optimal event listening performance:
 
 The project uses TypeScript with strict type checking. Key files:
 
--   `src/listener/Listener.ts`: Main event listening logic
--   `src/config/client.ts`: WebSocket client configuration
--   `src/callback/callback.ts`: Event processing logic
+-   `index.ts`: Application entrypoint
 -   `src/abi/abi.ts`: Contract ABIs
+-   `src/callback/callback.ts`: Event processing logic
+-   `src/config/client.ts`: Client configs
+-   `src/config/config.ts`: Application configs
+-   `src/listener/listener.ts`: Event listening logic
 -   `src/utils/utils.ts`: Utility functions
 
 ## Contributing
